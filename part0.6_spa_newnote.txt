@@ -1,0 +1,13 @@
+title SPA-form
+
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+note over server:
+server accepts the json data. 
+saves the note.
+and sends a 201 http code
+end note
+note over browser:
+browser doesn't reload 
+because there is not redirect request.
+Renders the newly added note.
+end note
